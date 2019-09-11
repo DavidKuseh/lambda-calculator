@@ -8,6 +8,8 @@
 }
 .display {
     margin-top: 25px;
+    margin-left:25px;
+    margin-bottom:25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +22,36 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .special {
+    width: 360px;
+    height: 450px;
+    margin-left:30px;
+    /* margin: 10px; */
+  }
+  .special button {
+      margin-right:20px;
+      margin-bottom:20px;
+  }
+  button {
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 50px;
+  }
+  .App {
+      display: flex;
+      width: 480px;
+      justify-content: space-between;
+  }
+  .operator{
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      margin-left: -150px;
+  }
+  .opButton {
+      margin-right: -10px;
+      margin-bottom: 15px;
+  }
+
+
