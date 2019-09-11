@@ -1,15 +1,17 @@
 .container {
-    background-color: #c00025;
+    background-color: #a51f37;
     width: 100%;
-    max-width: 550px;
+    max-width: 530px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
 .display {
     margin-top: 25px;
+    margin-left:50px;
+    margin-bottom:25px;
     height: 100px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,3 +22,54 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .special {
+    width: 360px;
+    height: 450px;
+    margin-left:50px;
+    
+  }
+  .special button {
+      margin-right:30px;
+      margin-bottom:15px;
+      background-color:#1c4378;
+  }
+  .special button:nth-child(10) {
+      width:210px;
+  }
+  .special div:nth-child(1) button:nth-child(1)  {
+      background-color: #275d9c;
+  }
+  .special div:nth-child(1) button:nth-child(2) {
+    background-color: #275d9c;
+  }
+  .special div:nth-child(1) button:nth-child(3) {
+    background-color: #275d9c;
+  }
+
+  button {
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    border-radius: 50px;
+  }
+  .App {
+      display: flex;
+      width: 480px;
+      justify-content: space-between;
+  }
+  .operator{
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+  }
+  .opButton {
+      margin-right: 20px;
+      margin-left:-20px;
+      margin-bottom: 15px;
+      background-color:#2a7292;
+  }
+  img {
+      margin: 20px 0 0 40px;
+  }
+
+
